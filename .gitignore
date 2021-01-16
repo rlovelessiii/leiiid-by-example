@@ -1,0 +1,17 @@
+
+# dependencies
+node_modules/
+
+# Gatsby build directories
+.cache/
+public/
+
+# static images
+static/images/profile.jpg
+static/favicon.ico
+
+# IDE config
+.idea/
+
+# misc
+.DS_Store

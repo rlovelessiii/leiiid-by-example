@@ -1,0 +1,29 @@
+{
+  "name": "leiiid-by-example",
+  "version": "0.0.1",
+  "description": "The Official Web App for the Blog - Leiiid by Example",
+  "main": "index.js",
+  "repository": "https://github.com/rlovelessiii/leiiid-by-example.git",
+  "author": "Richard C. Loveless III (rlovelessiii)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "start": "gatsby develop",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^2.30.2",
+    "gatsby-plugin-react-helmet": "^3.8.0",
+    "gatsby-source-filesystem": "^2.9.0",
+    "gatsby-transformer-remark": "^2.14.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
