@@ -6,10 +6,6 @@ node_modules/
 .cache/
 public/
 
-# static images
-static/images/profile.jpg
-static/favicon.ico
-
 # IDE config
 .idea/
 
