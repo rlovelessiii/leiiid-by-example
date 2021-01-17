@@ -10,8 +10,9 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "start": "gatsby develop",
-    "serve": "gatsby serve"
+    "dev": "gatsby develop",
+    "serve": "gatsby serve",
+    "start": "gatsby build && gatsby serve"
   },
   "dependencies": {
     "gatsby": "^2.30.2",
