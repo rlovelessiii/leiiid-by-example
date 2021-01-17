@@ -24,3 +24,83 @@ img {
     max-width: 100%;
     display: block;
 }
+
+/**
+    gatsby-remark-prismjs plugin styling
+ */
+.gatsby-highlight {
+    background-color: #fdf6e3;
+    border-radius: 0.3em;
+    margin: 0.5em 0;
+    padding: 1em;
+    overflow: auto;
+}
+
+.gatsby-highlight pre[class*="language-"] {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    overflow: initial;
+    float: left; /* 1 */
+    min-width: 100%; /* 2 */
+}
+
+/**
+ * Prism line-highlight plugin
+ */
+.gatsby-highlight-code-line {
+    background-color: #feb;
+    display: block;
+    margin-right: -1em;
+    margin-left: -1em;
+    padding-right: 1em;
+    padding-left: 0.75em;
+    border-left: 0.25em solid #f99;
+}
+
+/**
+ * Prism line-numbers plugin
+ */
+.gatsby-highlight pre[class*="language-"].line-numbers {
+    padding-left: 2.8em;
+}
+
+.deleted-sign {
+    background-color: #ffdcbb;
+    display: block;
+    margin: 0 -1em 0 -1em;
+    padding: 0 1em 0 0.75em;
+    border-left: 0.25em solid #ff0000;
+}
+
+.inserted-sign {
+    background-color: #feb;
+    display: block;
+    margin: 0 -1em 0 -1em;
+    padding: 0 1em 0 0.75em;
+    border-left: 0.25em solid #00ff00;
+}
+
+/**
+ * Prism command-line plugin
+ */
+.command-line-prompt > span:before {
+    color: #999;
+    content: " ";
+    display: block;
+    padding-right: 0.8em;
+}
+
+/* Prompt for all users */
+.command-line-prompt > span[data-user]:before {
+    content: "$";
+}
+
+/* Prompt for root */
+.command-line-prompt > span[data-user="root"]:before {
+    content: "#";
+}
+
+.command-line-prompt > span[data-prompt]:before {
+    content: attr(data-prompt);
+}
