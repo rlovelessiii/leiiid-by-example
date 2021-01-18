@@ -70,6 +70,12 @@ module.exports = {
               },
               escapeEntities: {}
             }
+          },
+          {
+            resolve: 'gatsby-plugin-typography',
+            options: {
+              pathToConfigModule: 'src/utils/typography'
+            }
           }
         ]
       }
