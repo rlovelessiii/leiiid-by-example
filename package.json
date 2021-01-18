@@ -17,8 +17,10 @@
   "dependencies": {
     "gatsby": "^2.30.2",
     "gatsby-plugin-react-helmet": "^3.8.0",
+    "gatsby-remark-autolink-headers": "^2.9.0",
     "gatsby-remark-mermaid": "^2.1.0",
     "gatsby-remark-prismjs": "^3.11.0",
+    "gatsby-remark-table-of-contents": "^1.0.0",
     "gatsby-source-filesystem": "^2.9.0",
     "gatsby-transformer-remark": "^2.14.0",
     "prismjs": "^1.23.0",
