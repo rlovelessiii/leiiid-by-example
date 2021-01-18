@@ -16,6 +16,20 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: 'gatsby-remark-mermaid',
+            options: {
+              language: 'mermaid',
+              theme: 'neutral',
+              viewport: {
+                width: 200,
+                height: 200
+              },
+              //mermaidOptions: {
+                //themeCSS: ".node rect { fill: cornflowerblue; }"
+              //}
+            }
+          },
+          {
             resolve: `gatsby-remark-prismjs`,
             options: {
               classPrefix: "language-",

@@ -25,6 +25,10 @@ img {
     display: block;
 }
 
+.mermaid {
+    line-height: 1;
+}
+
 /**
     gatsby-remark-prismjs plugin styling
  */
