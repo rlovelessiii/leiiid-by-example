@@ -15,6 +15,7 @@
     "start": "gatsby build && gatsby serve"
   },
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "gatsby": "^2.30.2",
     "gatsby-plugin-react-helmet": "^3.8.0",
     "gatsby-remark-autolink-headers": "^2.9.0",
@@ -23,9 +24,12 @@
     "gatsby-remark-table-of-contents": "^1.0.0",
     "gatsby-source-filesystem": "^2.9.0",
     "gatsby-transformer-remark": "^2.14.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
     "prismjs": "^1.23.0",
     "puppeteer": "^5.5.0",
     "react": "^16.4.2",
+    "react-bootstrap": "^1.4.3",
     "react-dom": "^16.4.2",
     "react-helmet": "^6.1.0"
   },
