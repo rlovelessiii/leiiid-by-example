@@ -1,3 +1,6 @@
+// Bootstrap stylesheet
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 // Prism theme
 import 'prismjs/themes/prism-solarizedlight.css'
 
